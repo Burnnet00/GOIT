@@ -176,13 +176,13 @@ margin: 48px 0 0 40px;
    color: #000000
 
 @media (min-width: 768px) {
-  aside {
+  sidebar {
     display: block;
   }
 }
 
 @media (max-width: 767px) {
-  aside {
+  sidebar {
     display: none;
   }
 }
