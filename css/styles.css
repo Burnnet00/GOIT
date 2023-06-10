@@ -1,3 +1,9 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #ESESES;
@@ -29,7 +35,7 @@ h2 {
 .sidebar{
     width: 370px;
     background: #E0EBFE;
-    margin: 0;
+    height: auto;
 }
 .foto{
     margin-top: 40px;
