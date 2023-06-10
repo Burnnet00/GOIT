@@ -1,9 +1,28 @@
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #ESESES;
-    padding: 40px;
+   font-family: 'Montserrat', sans-serif;
+   background-color: #ESESES;
+   margin 0px;
 }
+.main {
+
+    background-color: #ffffff;
+    width: 100%;
+    padding: 0 0 0 40px;
+}
+
+.container {
+   display: flex;
+   flex-direction: row-reverse;
+   flex-wrap: wrap;
+}
+.aside {
+   width: 370px;
+   background: #E0EBFE;
+   min-height: 1px;
+
+}
+
 h2 {
     font-size: 35px;
 }
@@ -16,22 +35,7 @@ h2 {
     font-height: 17px;
     color: #000000;
 }
-.main {
-    padding: 88px;
-}
-.wrapper {
-    display: Flex;
-    flex-direction: row-reverse;
-    background-color: #ffffff;
-    width: 100%;
-    margin: 0 auto;
-    box-shadow: 0px 4px rgba(0 0 0 0.25);
-}
-.sidebar{
-    width: 370px;
-    background: #E0EBFE;
-    margin: 0;
-}
+
 .foto{
     margin-top: 40px;
     width: 100%
@@ -186,3 +190,15 @@ margin: 48px 0 0 40px;
     display: none;
   }
 }
+  @media (min-width: 990px) {
+   .aside {
+     flex: 0 0 33.333333%;
+     max-width: 33.333333%;
+     order: 1;
+   }
+   .main {
+     flex: 0 0 66.666667%;
+     max-width: 66.666667%;
+     order: 2;
+   }
+  }
