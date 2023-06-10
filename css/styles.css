@@ -195,10 +195,12 @@ margin: 48px 0 0 40px;
      flex: 0 0 33.333333%;
      max-width: 33.333333%;
      order: 1;
+     display: none;
    }
    .main {
      flex: 0 0 66.666667%;
      max-width: 66.666667%;
      order: 2;
+     display: none;
    }
   }
