@@ -4,7 +4,7 @@ body {
    background-color: #ESESES;
    margin 0px;
 }
-.main {
+#main {
 
     background-color: #ffffff;
     width: 100%;
@@ -14,7 +14,7 @@ body {
 .container {
    display: flex;
    flex-direction: row-reverse;
-   flex-wrap: wrap;
+
 }
 .aside {
    width: 370px;
