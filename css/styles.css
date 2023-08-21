@@ -83,7 +83,7 @@ h2 {
   margin: 0 0 8px 0;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .images {
     display: none;
   }
