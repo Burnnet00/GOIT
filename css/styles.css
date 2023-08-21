@@ -2,8 +2,13 @@ body {
   display: flex;
 }
 
-.projects {
+.my_projects{
   display: flex;
+}
+
+.skills {
+  padding: 15px 0 0 15px;
+  color: #595959;
 }
 
 aside {
@@ -25,17 +30,11 @@ main {
   text-decoration: none;
 }
 
-.skills {
-  margin-top: 16px;
-  margin-left: 80px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  color: #595959;
-}
-
 .images {
   margin-top: 40px;
+}
+figure {
+  width: 60%;
 }
 
 .company {
@@ -57,7 +56,6 @@ h2 {
 
 /* aboutMe */
 .prof {
-  padding: 20px 28px 20px 20px;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -80,12 +78,14 @@ h2 {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
-  margin: 0 0 8px 0;
 }
 
 @media (max-width: 600px) {
   .images {
     display: none;
+  }
+  figure {
+  width: 40%;
   }
 }
 
