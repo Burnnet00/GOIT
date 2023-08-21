@@ -73,6 +73,11 @@ h2 {
     }
 .images{
 display: flex
+```css
+@media (max-width: 600px) {
+  .image{
+    display: none;
+  }
 }
 .contact,
 .skills1,
