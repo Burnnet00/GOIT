@@ -13,61 +13,121 @@
     <title>My resume</title>
 </head>
 <body>
-<div class="container">
+
+<!--    Sidebar-->
+<aside>
+    <div class="images">
+        <img src="./img/1.png" alt="My foto" width = 300px;>
+    </div>
+    <!--        Contacts-->
+    <div class="contact">
+        <h3 class="title">Contacts</h3>
+        <p>
+            <span class="type">C:</span>
+            <a href="tel:+380971353524" class="color_text">+38 097 135 35 24</a>
+        </p>
+        <p>
+            <span class="type">T:</span>
+            <a href="mailto:Burnnet00@gmail.com" class="color_text">Burnnet00@gmail.com</a>
+        </p>
+        <p>
+            <span class="type">E:</span>
+            <a href="https://t.me/burnnet" class="color_text">Telegram: @Burnnet</a>
+        </p>
+        <p>
+            <span class="type">L:</span>
+            <a href="https://www.linkedin.com/in/burnnet00/" class="color_text">Linkedin: burnnet00</a>
+        </p>
+    </div>
+    <!--        Tech skills-->
+    <div class="skills1">
+        <h3 class="title">Tech Skills</h3>
+        <ul class="list">
+            <li class="li"><span class="spa">Html</span></li>
+            <li class="li"><span class="spa">Css</span></li>
+            <li class="li"><span class="spa">JS</span></li>
+            <li class="li"><span class="spa">Git</span></li>
+            <li class="li"><span class="spa">Sql</span></li>
+            <li class="li"><span class="spa">Django</span></li>
+            <li class="li"><span class="spa">Rest API</span></li>
+            <li class="li"><span class="spa">React(base)</span></li>
+            <li class="li"><span class="spa">Telebot</span></li>
+            <li class="li"><span class="spa">Jira</span></li>
+            <li class="li"><span class="spa">TestRail</span></li>
+            <li class="li"><span class="spa">Figma</span></li>
+        </ul>
+    </div>
+    <!--        Soft skills-->
+    <div class="skills2">
+        <h3 class="title">Soft Skills</h3>
+        <ul class="list">
+            <li class="li"><span class="spa">Teamwork</span></li>
+            <li class="li"><span class="spa">Leadership</span></li>
+            <li class="li"><span class="spa">Communication</span></li>
+        </ul>
+    </div>
 
 
+</aside>
         <!--        Main content-->
-        <div id="main">
-
+        <main class="main">
             <!--        About me-->
             <div class="about">
-                <h2 class="prof">Backend-developer</h2>
+                <h2 class="prof">Backend-developer/Designer</h2>
                 <h1 class="name">Oleh Myroniuk</h1>
-                <p class="descr">Python(django)</p>
+                <p class="descr">Python(django)/Figma</p>
             </div>
             <!--        Projects-->
-            <div class="pro">
-                <h3 class="project">Projects</h3>
-                <ol class="ol">
-                    <li class="project-item">
-                        <a href="https://github.com/Burnnet00/Resume"
-                           class="link">Github.com/Burnnet00/resume</a>
-                        <span class="des">........................[HTML, CSS]</span>
-                    </li>
-                    <li class="project-item">
-                        <a href="https://github.com/Burnnet00/Arcade-game"
-                           class="link">Github.com/Burnnet00/arcade-game</a>
-                        <span class="des">...............[PYGAME]</span>
-                    </li>
-                    <li class="project-item">
-                        <a href="https://github.com/Burnnet00/companion"
-                           class="link">Github.com/Burnnet00/companion [PET]</a>
-                        <span class="des">......[DJANGO]</span>
-                    </li>
-                    <li class="project-item">
-                        <a href="https://github.com/Burnnet00/openaichrom"
-                           class="link">Github.com/Burnnet00/openaichrom</a>
-                        <span class="des">................................[AI]</span>
-                    </li>
-
-                    <li class="project-item">
-                        <a href="https://github.com/Burnnet00/website"
-                           class="link">Github.com/Burnnet00/website</a>
-                        <span class="des">.................................[Telebot]</span>
-                    </li>
-                    <li class="project-item">
-                        <a href="https://github.com/Burnnet00/reactForm"
-                           class="link">Github.com/Burnnet00/react</a>
-                        <span class="des">....................................[JS, React]</span>
-                    </li>
-                </ol>
+            <h3 class="project">Projects</h3>
+            <div class="projects">
+                <div class="my_projects">
+                    <ol class="ol">
+                        <li class="project-item">
+                            <a href="https://github.com/Burnnet00/Resume"
+                               class="link">Github.com/Burnnet00/resume</a>
+                        </li>
+                        <li class="project-item">
+                            <a href="https://github.com/Burnnet00/Arcade-game"
+                               class="link">Github.com/Burnnet00/arcade-game</a>
+                        </li>
+                        <li class="project-item">
+                            <a href="https://github.com/Burnnet00/companion"
+                               class="link">Github.com/Burnnet00/companion [PET]</a>
+                        </li>
+                        <li class="project-item">
+                            <a href="https://github.com/Burnnet00/openaichrom"
+                               class="link">Github.com/Burnnet00/openaichrom</a>
+                        </li>
+                        <li class="project-item">
+                            <a href="https://github.com/Burnnet00/website"
+                               class="link">Github.com/Burnnet00/website</a>
+                        </li>
+                        <li class="project-item">
+                            <a href="https://github.com/Burnnet00/reactForm"
+                               class="link">Github.com/Burnnet00/react</a>
+                        </li>
+                    </ol>
+                </div>
+                <div class="skills">
+                    [HTML, CSS]
+                    <br>
+                    [PYGAME]
+                    <br>
+                    [DJANGO]
+                    <br>
+                    [AI]
+                    <br>
+                    [Telebot]
+                    <br>
+                    [JS, React]
+                </div>
             </div>
             <!--        Experience-->
             <div>
                 <h3 class="project">Work Experience</h3>
                 <!--            Company-->
                 <div>
-                    <h4 class="position">Backend_Developer
+                    <h4 class="position">Designer
                         <span class="company"> Freelance</span></h4>
                     <p class="time">Sep2019-up to now</p>
 
@@ -113,64 +173,17 @@
 
                 <p class="time">August 2003</p>
             </div>
+            <div>
+                <div class="images">
+                    <img src="./img/3.png" alt="worm" width = 300px;>
+                </div>
+            </div>
+        </main>
+                    <div>
+                        <div class="images">
+                            <img src="./img/5.png" alt="notepad" width = 300px;>
+                        </div>
+                    </div>
 
-        </div>
-
-<!--    Sidebar-->
-<aside class="aside">
-    <div>
-        <img src="./img/777.jpg" alt="My foto" class="foto">
-    </div>
-    <!--        Contacts-->
-    <div class="contact">
-        <h3 class="title">Contacts</h3>
-        <p>
-            <span class="type">C:</span>
-            <a href="tel:+380971353524" class="c1">+38 097 135 35 24</a>
-        </p>
-        <p>
-            <span class="type">E:</span>
-            <a href="mailto:Burnnet00@gmail.com" class="c1">Burnnet00@gmail.com</a>
-        </p>
-        <p>
-            <span class="type">T:</span>
-            <a href="https://t.me/burnnet" class="c1">Telegram: @Burnnet</a>
-        </p>
-        <p>
-            <span class="type">L:</span>
-            <a href="https://www.linkedin.com/in/burnnet00/" class="c1">Linkedin: burnnet00</a>
-        </p>
-    </div>
-    <!--        Tech skills-->
-    <div class="skills1">
-        <h3 class="title">Tech Skills</h3>
-        <ul class="list">
-            <li class="li"><span class="spa">Html</span></li>
-            <li class="li"><span class="spa">Css</span></li>
-            <li class="li"><span class="spa">JS</span></li>
-            <li class="li"><span class="spa">Git</span></li>
-            <li class="li"><span class="spa">Sql</span></li>
-            <li class="li"><span class="spa">Django</span></li>
-            <li class="li"><span class="spa">Rest API</span></li>
-            <li class="li"><span class="spa">React(base)</span></li>
-            <li class="li"><span class="spa">Telebot</span></li>
-            <li class="li"><span class="spa">Jira</span></li>
-            <li class="li"><span class="spa">TestRail</span></li>
-            <li class="li"><span class="spa">Figma</span></li>
-        </ul>
-    </div>
-    <!--        Soft skills-->
-    <div class="skills2">
-        <h3 class="title">Soft Skills</h3>
-        <ul class="list">
-            <li class="li"><span class="spa">Teamwork</span></li>
-            <li class="li"><span class="spa">Leadership</span></li>
-            <li class="li"><span class="spa">Communication</span></li>
-        </ul>
-    </div>
-</aside>
-
-
-</div>
 </body>
 </html>

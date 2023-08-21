@@ -1,34 +1,53 @@
-
 body {
-   font-family: 'Montserrat', sans-serif;
-   background-color: #ESESES;
-   margin 0px;
+   display: flex
 }
-#main {
-
-    background-color: #ffffff;
-    width: 100%;
-    padding: 0 0 0 40px;
+.projects{
+display: flex;
 }
-
-.container {
-   display: flex;
-   flex-direction: row-reverse;
-
+aside {
+background: #E0EBFE;
+width: 40% vw;
+border-radius: 30px;
 }
-.aside {
-   width: 370px;
-   background: #E0EBFE;
-   min-height: 1px;
-
+main{
+padding: 100px 0 0 60px;
 }
-
+.color_text{
+color: #2979FF;
+}
+.link{
+color: #2979FF;
+text-decoration: none;
+}
+.skills{
+    margin-top: 15px;
+    margin-left: 60px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    font-height: 24px;
+    color: #595959;
+}
+.images{
+margin-top: 40px;
+}
+.company{
+color: #2979FF;
+}
+.time{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    font-height: 15px;
+    color: #A8A8A8;
+    margin: 12px 0 8px 0;
+}
 h2 {
     font-size: 35px;
 }
 /* aboutMe */
 .prof {
-    margin-bottom: 18px;
+    padding: 20 28px 20 20;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -36,12 +55,25 @@ h2 {
     color: #000000;
 }
 
-.foto{
-    margin-top: 40px;
-    width: 100%
-
+.name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    font-height: 55px;
+    color: #000000
+    margin: 0 0 28 0;
 }
-
+.descr{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    font-height: 24px;
+    color: #595959;
+    margin: 0 0 8px 0;
+    }
+.images{
+display: flex
+}
 .contact,
 .skills1,
 .skills2{
@@ -84,85 +116,6 @@ margin: 48px 0 0 40px;
     font-height: 24px;
     color: #161D2A;
 }
-.name{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 45px;
-    font-height: 55px;
-    color: #000000
-    margin: 0 0 28 0;
-}
-.descr{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    font-height: 24px;
-    color: #595959;
-    margin: 0 0 8px 0;
-    width: 525px;
-}
-.about{
-    margin-bottom: 64px;
-}
-.project{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    font-height: 27px;
-    margin: 48 0 8px 0;
-    color: #000000
-}
-.project-item{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    font-height: 24px;
-    color: #000000;
-}
-.ol{
-    margin: 0 0 0 22px;
-    padding: 0;
-}
-.pro{
-    margin-bottom: 48 px;
-}
-.des{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    font-height: 24px;
-    color: #595959;
-}
-.link{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    font-height: 24px;
-    text-decoration-line: underline;
-    color: #005FFF;
-}
-.position{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    font-height: 20px;
-    color: #000000;
-}
-.company{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    font-height: 20px;
-    color: #609BF4
-}
-.time{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    font-height: 15px;
-    color: #A8A8A8;
-    margin: 12px 0 8px 0;
-}
 .duties{
     font-style: normal;
     font-weight: 400;
@@ -170,37 +123,3 @@ margin: 48px 0 0 40px;
     font-height: 24px;
     color: #595959;
     padding-left: 16px;
-}
-.project1{
-   font-style: normal
-   font-weight: 700;
-   font-size: 22px;
-   font-height: 27px;
-   margin-bottom: 8px;
-   color: #000000
-
-@media (min-width: 768px) {
-  sidebar {
-    display: block;
-  }
-}
-
-@media (max-width: 767px) {
-  sidebar {
-    display: none;
-  }
-}
-  @media (min-width: 990px) {
-   .aside {
-     flex: 0 0 33.333333%;
-     max-width: 33.333333%;
-     order: 1;
-     display: none;
-   }
-   .main {
-     flex: 0 0 66.666667%;
-     max-width: 66.666667%;
-     order: 2;
-     display: none;
-   }
-  }
