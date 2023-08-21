@@ -80,8 +80,8 @@ h2 {
   color: #595959;
 }
 
-@media (max-width: 600px) {
-  .images {
+@media (width: 600px) {
+  img {
     display: none;
   }
   figure {
