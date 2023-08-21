@@ -81,10 +81,8 @@ h2 {
 }
 
 @media (width: 600px) {
-  img {
-    display: none;
-  }
   figure {
+  display: none;
   width: 40%;
   }
 }
